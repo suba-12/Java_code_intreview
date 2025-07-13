@@ -18,7 +18,7 @@ public class Longestcom {
             if( index  == S[i].length() || S[i].charAt(index) != c ) {
                 return S[0].substring( 0 , index);
             }
-            
+           
         }
         
        }

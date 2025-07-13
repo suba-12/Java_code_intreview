@@ -3,7 +3,7 @@ package Linearsearch.lecture;
 public class Linearsearch {
     public static void main(String[] args) {
         int[] arr = {230,34,45,23,13,324,2234,34};
-        int target = 231;
+        int target = 230;
         int ans = linearnumber( arr , target);
         System.out.println(ans);
     }
@@ -15,8 +15,10 @@ public class Linearsearch {
         for (int index = 0; index < arr.length; index++) {
            // int element = ;
             if(arr[index] == target){
+
                 return index;
             }
+            
             
         }
         return -1;

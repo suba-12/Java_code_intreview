@@ -33,7 +33,7 @@ public class Thirdlargest {
                 second = arr[index];
             }
         }
-  int third = Integer.MIN_VALUE;
+        int third = Integer.MIN_VALUE;
         for (int index = 0; index < arr.length; index++) {
 
             if(third < arr[index] && second > arr[index]){

@@ -19,6 +19,7 @@ public class Makedisadd {
                 arr[i] = sc.nextInt(); // Read array elements
             }
             
+            
             // Sort the array to easily handle duplicates
             Arrays.sort(arr); // 2,2,3,4,4,5
             

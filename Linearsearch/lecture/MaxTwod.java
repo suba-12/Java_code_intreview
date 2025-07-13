@@ -9,7 +9,6 @@ public class MaxTwod {
             {34,45,56},
             {23,34,2}
         };
-        int target = 34;
        
         System.out.println(Maximun(arr));
     
